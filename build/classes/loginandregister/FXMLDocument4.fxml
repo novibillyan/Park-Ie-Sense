@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="457.0" prefWidth="406.0" style="-fx-background-color: #153850;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="loginandregister.FXMLDocument4Controller">
+   <children>
+      <AnchorPane prefHeight="63.0" prefWidth="406.0" style="-fx-background-color: #f49a1b;" />
+      <Label layoutX="19.0" layoutY="13.0" text="Parkir Park-ie Sense " textFill="#f1f0f4">
+         <font>
+            <Font name="Bell MT" size="29.0" />
+         </font>
+      </Label>
+      <Label layoutX="53.0" layoutY="152.0" text="Kendaraan " textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="52.0" layoutY="122.0" text="No Kendaraan " textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="53.0" layoutY="190.0" text="Harga Parkir" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="NoKendaraan" layoutX="199.0" layoutY="122.0" style="-fx-background-color: #d6d0d0;" />
+      <TextField fx:id="hargaParkir" layoutX="199.0" layoutY="192.0" style="-fx-background-color: #d6d0d0;" />
+      <Label layoutX="53.0" layoutY="244.0" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="jamMasuk" layoutX="199.0" layoutY="229.0" style="-fx-background-color: #d6d0d0;" />
+      <RadioButton fx:id="Roda2" layoutX="200.0" layoutY="158.0" mnemonicParsing="false" onAction="#roda2" text="Roda 2" textFill="WHITE" />
+      <RadioButton fx:id="roda4" layoutX="286.0" layoutY="157.0" mnemonicParsing="false" onAction="#roda4" text="Roda 4" textFill="WHITE" />
+      <Label layoutX="51.0" layoutY="228.0" text="Jam Masuk" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="totalBayar" layoutX="199.0" layoutY="349.0" style="-fx-background-color: #d6d0d0;" />
+      <Label layoutX="52.0" layoutY="348.0" text="Total Bayar " textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="lamaParkir" layoutX="199.0" layoutY="265.0" prefHeight="25.0" prefWidth="90.0" style="-fx-background-color: #d6d0d0;" />
+      <Label layoutX="52.0" layoutY="264.0" text="Lama Parkir" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="303.0" layoutY="265.0" text="Jam" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="idProses" layoutX="200.0" layoutY="299.0" mnemonicParsing="false" onAction="#proses" prefHeight="37.0" prefWidth="69.0" style="-fx-background-color: #11bf96;" text="Proses">
+         <font>
+            <Font size="16.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="idClear" layoutX="281.0" layoutY="299.0" mnemonicParsing="false" onAction="#clear" prefHeight="37.0" prefWidth="69.0" style="-fx-background-color: #11bf96;" text="Clear">
+         <font>
+            <Font size="16.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="idLogOut" layoutX="200.0" layoutY="389.0" mnemonicParsing="false" onAction="#logOut" prefHeight="37.0" prefWidth="90.0" style="-fx-background-color: #d64747;" text="Log Out">
+         <font>
+            <Font size="16.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>
